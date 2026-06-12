@@ -8,7 +8,7 @@ window = turtle.Screen()
 my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
 my_turtle.shapesize(4)
-my_turtle.color("#328FCE")
+my_turtle.color("#C40BF3")
 
 def click_handler(x, y)
     colors = ["#FF5733", "#33FF57", "#3357FF", "#F333FF", "#33FFF5"]
