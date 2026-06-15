@@ -13,6 +13,7 @@ my_turtle.color("purple")
 def click_handler(x, y):
     colors = ["#FF5733", "#33FF57", "#ddff33", "#3357FF", "#F333FF", "#33FFF5"]
     my_turtle.color(random.choice(colors))
+    my_turtle.right(45)
 
 my_turtle.onclick(click_handler)
 
